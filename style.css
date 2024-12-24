@@ -1,0 +1,68 @@
+/* CSS untuk semua halaman */
+body {
+    font-family: "Poppins", sans-serif; /* Ganti font menjadi Poppins */
+    font-weight: 700; /* Tebal */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    background-color: #007BFF; /* Warna biru */
+    color: white;
+    padding: 1rem 0;
+    font-size: 1.5rem; /* Sedikit lebih besar */
+}
+
+/* Link */
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700; /* Tebal */
+}
+
+/* Tombol */
+button {
+    background-color: #007BFF; /* Warna biru */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem; /* Ukuran font lebih besar */
+    font-weight: 700; /* Tebal */
+}
+
+button:hover {
+    background-color: #0056b3; /* Warna biru lebih gelap untuk hover */
+}
+
+/* Form */
+form {
+    margin-top: 50px;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem; /* Ukuran font lebih besar */
+    font-weight: 700; /* Tebal */
+}
+
+/* Error Message */
+p {
+    margin: 10px 0;
+    font-size: 14px;
+    font-weight: 700; /* Tebal */
+}
+
+/* Khusus untuk teks 'Hello' */
+.hello {
+    font-style: italic; /* Membuat teks miring */
+}
